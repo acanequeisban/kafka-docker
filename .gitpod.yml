@@ -1,3 +1,6 @@
 tasks:
   - init: sudo docker-up
+    name: Docker Up
+  - openMode: tab-after
     command: docker-compose up -d
+    name: Kafka Cluster
