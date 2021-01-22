@@ -1,5 +1,5 @@
 tasks:
-  - init: sudo docker-up
+  - before: sudo docker-up
     name: Docker Up
   - openMode: tab-after
     command: docker-compose up -d
